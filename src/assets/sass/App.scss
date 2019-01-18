@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+
+.App-header span {
+  color: red;
+}
+
+.App-container {
+  min-height: 20vh;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vmin;
+  color: white;
+}
+
+.eat-app {
+  margin: 0 10px 0 10px;
+}
+
+.count-down-time span {
+  font-size: calc(50px + 2vmin);
+}
+
+.count-down {
+  font-size: 8px;
+}
